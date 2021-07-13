@@ -17,11 +17,11 @@ end
 
 group :test do
   gem 'dpl', git: 'https://github.com/travis-ci/dpl.git'
-  gem 'json-schema'
+  gem 'json-schema', '>= 2.8.1'
   gem 'rack-test'
   gem 'rake'
   gem 'rspec'
-  gem 'webmock'
+  gem 'webmock', '>= 3.8.1'
 end
 
 gemspec
